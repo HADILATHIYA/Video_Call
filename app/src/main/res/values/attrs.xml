@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="CustomChipChoiceStyle" format="reference"/>
+
+    <array name="audioCodecs">
+        <item>OPUS</item>
+        <item>ISAC</item>
+    </array>
+
+    <array name="cameraFps">
+        <item>Default</item>
+        <item>30 fps</item>
+        <item>15 fps</item>
+    </array>
+
+    <array name="speakerphone">
+        <item>Auto (proximity sensor)</item>
+        <item>Enabled</item>
+        <item>Disabled</item>
+    </array>
+    <array name="speakerphoneValues">
+        <item>auto</item>
+        <item>true</item>
+        <item>false</item>
+    </array>
+    <array name="startBitrate">
+        <item>Default</item>
+        <item>Manual</item>
+    </array>
+    <array name="videoCodecs">
+        <item>VP8</item>
+        <item>VP9</item>
+        <item>H264 Baseline</item>
+        <item>H264 High</item>
+    </array>
+    <array name="videoResolutions">
+        <item>Default</item>
+        <item>4K (3840 x 2160)</item>
+        <item>Full HD (1920 x 1080)</item>
+        <item>HD (1280 x 720)</item>
+        <item>VGA (640 x 480)</item>
+        <item>QVGA (320 x 240)</item>
+    </array>
+    <array name="videoResolutionsValues">
+        <item>Default</item>
+        <item>3840 x 2160</item>
+        <item>1920 x 1080</item>
+        <item>1280 x 720</item>
+        <item>640 x 480</item>
+        <item>320 x 240</item>
+    </array>
+
+    <declare-styleable name="TemplateView">
+        <attr name="gnt_template_type" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="FontText">
+        <attr name="typefaceAsset" format="string" />
+    </declare-styleable>
+
+</resources>
